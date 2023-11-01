@@ -35,10 +35,3 @@ class Database:
         return result
 
 
-    def get_bot_captcha_type(self, bot_id):
-        self.cursor.execute('SELECT captcha_type FROM bots WHERE bot_id = ?', (bot_id,))
-        result = self.cursor.fetchall()
-        if result:
-            return result
-
-
