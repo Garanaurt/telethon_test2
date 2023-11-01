@@ -7,9 +7,9 @@ import time
 db = Database('data.db')
 
 
-api_id = 24918248
-api_hash = "5152db285d52601273a81e40e24c62a0"
-group = '@shield_test_bot'
+api_id = 24948
+api_hash = "5152a0"
+group = '@test_bot'
 session = "session"
 
 
